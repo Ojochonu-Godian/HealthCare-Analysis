@@ -10,7 +10,6 @@ This project is built using **Microsoft Power BI** and leverages real-world heal
 - Hospital performance
 - Treatment outcomes
 - Cost distribution and trends
-- Readmission and discharge patterns
 
 It provides a comprehensive overview of patient flows, outcomes, and operational metrics from over 55,000 records gathered from 10 U.S. hospitals.
 
