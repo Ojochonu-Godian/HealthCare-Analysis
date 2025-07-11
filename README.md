@@ -13,60 +13,54 @@ This project is built using **Microsoft Power BI** and leverages real-world heal
 
 It provides a comprehensive overview of patient flows, outcomes, and operational metrics from over 55,000 records gathered from 10 U.S. hospitals.
 
-## 🔧 Features
+## 🎯 Key Business Questions Answered
 
-- 📈 Interactive filters by hospital, patient type, and diagnosis
-- 📍 Geographic distribution of hospital services
-- 🏷️ DRG (Diagnosis-Related Group) and procedure-level analysis
-- 💵 Cost trends by facility and year
-- 📋 Readmission and length-of-stay tracking
-- ⚖️ Comparative metrics across hospitals
+This dashboard provides insights into the following questions:
+
+1. **Patient Demographics**  
+   - What are the most common **age groups**, **genders**, and **blood types** among patients?  
+   - Are certain groups being admitted more frequently?
+
+2. **Condition Frequency and Patient Profiles**  
+   - Which **medical conditions** are diagnosed most often?  
+   - Do these conditions affect particular demographic groups more?
+
+3. **Hospital Stay Duration**  
+   - What is the **average length of stay** for different conditions?  
+   - Does it vary by **hospital** or **admission type** (emergency, urgent, planned)?
+
+4. **Treatment Costs**  
+   - What is the **average treatment cost** for each condition?  
+   - Are there significant differences across **hospitals** or **insurance providers**?
+
+5. **Hospital Performance**  
+   - Which hospitals are treating the **highest volume of patients**?  
+   - How do they compare in terms of **patient outcomes** (e.g., test results)?
+
+6. **Medication Trends**  
+   - What are the most commonly prescribed **medications** for each condition?  
+   - Are treatments consistent across hospitals?
+
+7. **Admission Types and Impact**  
+   - What are the common types of **admission** (emergency, urgent, planned)?  
+   - How do they affect **length of stay** and **cost**?
+
+8. **Insurance Company Trends**  
+   - Which **insurance companies** cover the most patients?  
+   - How do costs and outcomes compare across insurers?
 
 ## 📁 File Details
 
-- **HealthDataAnalysis.pbix** – The main Power BI report file. Contains all visuals, relationships, DAX calculations, and datasets (imported or connected).
+- **HealthDataAnalysis.pbix** – The main Power BI report file. Contains all visuals, relationships, DAX calculations, and dataset.
 
 ## 📌 Tools Used
 
 - Microsoft Power BI (Desktop)
 - DAX (Data Analysis Expressions)
 - Power Query (M)
-- Excel / CSV (for initial data import and prep)
+- Excel.
 
-## 🧠 Insights Generated
+## 🚀 Visualization
 
-Some of the insights the dashboard enables include:
-
-- Identifying hospitals with high cost-per-patient ratios
-- Comparing outcome metrics across hospitals and departments
-- Exploring the relationship between patient demographics and readmission rates
-- Visualizing changes in average length of stay over time
-
-## 🚀 Getting Started
-
-To explore or modify the dashboard:
-
-1. Download the `.pbix` file from this repository.
-2. Open with [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-3. Ensure all data sources are available or adjust data connections if needed.
-
-## 📌 Use Case
-
-Ideal for:
-
-- Healthcare analysts
-- Hospital administrators
-- Data science portfolios
-- Educational purposes on health data visualization
-
-## 📜 License
-
-This project is for educational and demonstrative purposes. If using in a production environment or with sensitive data, ensure compliance with HIPAA and other healthcare data regulations.
-
-## 🙋‍♂️ Contributions
-
-Feel free to fork the repo and suggest improvements or enhancements to the dashboard visuals or calculations.
-
----
-
-📧 For questions or collaboration, contact [Your Name] via GitHub or email.
+To explore the dashboard:
+Click Here [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWU2ZjQ4ZTEtYzFlMC00MTcyLTg4MDgtYjlmOTlmMjEzMmViIiwidCI6IjBkNDE2ZjQ5LTE2MzItNDcwMS1iN2Q4LWIzMjY1OTk3YmY5MyJ9).
